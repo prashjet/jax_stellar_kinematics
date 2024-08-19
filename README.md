@@ -5,11 +5,11 @@ This repository contains tools for spectral modelling to extract the Line-of-Sig
 This repository hosts some initial implementations of LOSVD-recovery tools implemented in JAX and [`numpyro`](https://num.pyro.ai/en/latest/index.html#introductory-tutorials). The goal is to expand this into a complete software package, building in spatial-modelling capability with Gaussian Processes using [`tinygp`](https://tinygp.readthedocs.io/en/stable/).
 
 Repository contents:
+- `example_output.ipynb`: notebook illustrating LOSVD recovery
 - `code`
     -  `fit_spectrum.py`: main functions
     -  `gauss_hermite.py`: implementation of the [Gauss Hermite](https://ui.adsabs.harvard.edu/abs/1993ApJ...407..525V/abstract) LOSVD model
     - `sanders_evans.py`: implementation of the LOSVD model from [Sanders & Evans 2020](https://arxiv.org/abs/2009.07858)
-    - `example_output.ipynb`: notebook illustrating some code output
 - `data`:
     -  `spectrum.out`: spectrum from galaxy NGC1023, taken from the [ATLAS 3D](https://www-astro.physics.ox.ac.uk/atlas3d/) survey
     -  `emission_line_mask.npy`
